@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.784);
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/2d/Kaas_op_planken.jpg) ;
+    background-size:cover;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+
+}
+
+#header {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #56714a;
+
+}
+
+#header img {
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 10px solid rgb(18, 46, 27);
+    background-size: cover;
+}
+
+#header img:hover{
+    transition: 0.70s;
+    transform: scale(2)
+}
+
+#header h1 {
+    padding-top: 30px;
+    color: #fff;
+}
+#content {
+    background-color: #3d564c;
+    color: rgb(255, 255, 255);
+    padding: 50px;
+}
+
+#content h2 {
+    text-align: center;
+}
+
+#content #intro {
+padding-top: 20px;
+}
+#content #overig {
+padding-top: 20px;
+}
+#content #kennis {
+padding-top: 20px;
+}
+#content #kennis ul {
+    padding-left: 15px;
+}
+#experimental {
+    background-color: #479b86;
+    height: 500px;
+    padding: 50px;
+}
+#experimental h2 {
+    text-align: center;
+}
+#footer {
+    background-color: #67798f;
+    height: 150px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+#footer ul {
+    display: block;
+    padding-top: 10px;
+}
+#footer ul li {
+    display: inline-block;
+}
+
+#footer ul li a {
+    padding: 10px;
+}
+#footer ul li a img {
+    height: 75px;
+}
+.poes{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
